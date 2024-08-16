@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'FS Industrie Wide';
+    src: url('@/assets/fonts/FS Industrie Wd Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'FS Industrie Wide';
+    src: url('@/assets/fonts/FS Industrie Wd Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'FS Industrie Wide';
+    src: url('@/assets/fonts/FS Industrie Wd Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+body {
+  @apply font-default;
+}
